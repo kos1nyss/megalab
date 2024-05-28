@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+}
+
+.content {
+	background-color: indianred;
+	margin: 300px auto;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: Arial, serif;
+}
+
+.form-calculate {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 20px;
+	align-items: center;
+}
+
+.form-calculate > ul {
+	gap: 10px;
+}
+
+.form-calculate > ul > li::marker {
+	content: '';
+}
+
+.form-calculate > ul > li + li {
+	margin-top: 10px;
+}
+
+.result {
+	margin: 0 auto;
+}
+
+.button-calculate {
+	width: 100px;
+	height: 50px;
+	margin: 10px auto;
+	margin-bottom: 0px;
+}

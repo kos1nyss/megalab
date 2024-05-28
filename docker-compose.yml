@@ -1,0 +1,8 @@
+services:
+  php:
+    image: php:8-cli
+    command: php -S localhost:8000 -t public
+    volumes:
+      - ./:/app
+    ports:
+      - 8000:8000
